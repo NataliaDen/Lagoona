@@ -1,0 +1,71 @@
+.excellence {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .ul-excellence {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+
+  .li-excellence {
+    flex: 0 0 24%;
+    padding: 40px;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-size: 70px;
+    background-position: 30px 30px;
+    margin-right: 15px;
+  }
+
+  .li-excellence:nth-child(4n+4){
+    margin-right: 0;
+  }
+
+
+  .ex1 {
+    background-image: url(../img/bathtub.svg);
+  }
+
+  .ex2 {
+   background-image: url(../img/hanger.svg);
+  }
+
+  .ex3 {
+   background-image: url(../img/heating.svg);
+  }
+
+  .ex4 {
+   background-image: url(../img/hotel-key.svg);
+  }
+
+  .ex5 {
+   background-image: url(../img/parking.svg);
+  }
+
+  .ex6 {
+   background-image: url(../img/reception.svg);
+  }
+
+  .ex7 {
+   background-image: url(../img/security-box.svg);
+  }
+
+  .ex8 {
+   background-image: url(../img/swimming-pool.svg);
+  }
+
+  .p-excellence {
+    max-width: 890px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #666666;
+    padding-top: 20px;
+   }
+

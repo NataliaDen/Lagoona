@@ -1,0 +1,124 @@
+.placing {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  span {
+    display: block;
+  }
+
+  .text-placing {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+  }
+
+  .name-placing {
+    font-size: 20px;
+    color:var(--color-btn-link-text);
+  }
+
+  .article-placing {
+   height: 100%;
+   width: 100%;
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   border-radius: 8px;
+   overflow: hidden;
+  }
+
+  .ul-placing {
+   display: flex;
+   max-width: 100%;
+   align-items: stretch;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: flex-start;
+  }
+
+  .li1-placing {
+   flex: 0 0 30%;
+   margin-bottom: 20px;
+   min-height: 445px;
+   min-width: 375px;
+   border-radius: 15px;
+   overflow: hidden;
+  }
+
+  .card-placing {
+    padding: 30px 50px 60px 30px;
+  }
+
+  .p-placing {
+    display: flex;
+    padding-bottom: 20px;
+    color: #666;
+  }
+
+  .span-placing-text {
+    display: block;
+    font-weight: 500;
+    padding-bottom: 10px;
+    color:black;
+  }
+
+  .span-placing {
+    display: block;
+    padding-left: 20px;
+  }
+
+  .li1-placing9 {
+    display: flex;
+    position: relative;
+    background-image: url(../img/41.jpg);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    background-size: cover;
+    align-items: flex-end;
+    min-height: 450px;
+    min-width: 375px;
+  }
+
+  .a2-placing {
+   display: inline-block;
+   position: absolute;
+   background-image: url(../img/стрелка2.svg);
+   background-size: 20px 20px;
+   background-repeat: no-repeat;
+   color:#f6f6f6;
+   background-position: 80% 86%;
+   padding: 370px 20px 40px 20px;
+   font-size: 20px;
+   font-weight: bold;
+   width: 100%;
+   height: 100%;
+  }
+
+  .a2-placing::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+ .a2-placing:hover {
+    color:var(--color-btn-link-text);
+  }
+
+  .placing-btn {
+    background-color: white;
+    color:var(--color-btn-link-text);
+    padding: 10px 20px;
+    border-color: #cc9933;
+  }
+
+  /*.placing-btn:hover {
+    color: white;
+    background-color: var(--color-btn-link-text);
+    transform: translateY(-10px);
+  }*/

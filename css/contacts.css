@@ -1,0 +1,126 @@
+.address-questions {
+    display: flex;
+    justify-content: space-between;
+    background:white;
+    padding: 45px;
+    border-radius: 15px;
+  }
+
+  .address {
+    display: flex;
+    padding-right: 25px;
+    flex-direction: column;
+    width: 450px;
+    height: auto;
+    justify-content: space-between;
+  }
+
+  .block-contacts:not(:first-child) {
+    margin-top: 10px;
+  }
+
+  .block-contacts {
+     display: flex;
+     justify-content: space-between;
+     border-bottom: 1px solid #9999;
+     padding: 10px 30px 30px 30px;
+    }
+
+
+    h3 {
+      margin: 0;
+      color: #666;
+    }
+
+    .item-text {
+      display: flexbox;
+      width: 250px;
+      padding-left: 70px;
+      color: #666;
+    }
+
+    .contact-address {
+      font-style: normal
+    }
+
+    .contact-tel {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+
+    span {
+      display: inline-block;
+    }
+
+    .name-contacts {
+      display: flex;
+    }
+
+    .questions-input {
+      padding-left: 50px;
+      display: flexbox;
+      justify-content: space-between;
+    }
+
+    .field {
+      width: 290px;
+      padding: 20px;
+      background-color: #f6f6f6;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      border: none;
+      color: #a7a7a7;
+      box-shadow: none;
+    }
+
+    .field::placeholder {
+      color: #a7a7a7;
+     }
+
+    .name {
+      margin-right: 20px;
+    }
+
+    .comment {
+     min-width: 605px;
+     min-height: 255px;
+    }
+
+    .adress-btn {
+     background-color: white;
+     color: var(--color-btn-link-text);
+     padding: 25px 35px;
+     border-color: var(--color-btn-link-text);
+     margin-top: 45px;
+    }
+
+    /*.adress-btn:hover {
+      color: white;
+      background-color: var(--color-btn-link-text);
+      transform: translateY(-10px);
+    }*/
+
+    .text-confidentiality {
+     padding-top: 15px;
+     padding-left: 50px;
+     font-size: 15px;
+    }
+
+    .questions-btn {
+     border: 0;
+     margin-top: 40px;
+     margin-left: 50px;
+     padding: 25px 100px;
+
+    }
+
+    /*.questions-btn:hover {
+      border-color:var(--color-btn-link-text);
+      background-color: white;
+      color: var(--color-btn-link-text);
+      transform: translateY(-10px);
+    }*/
+
+

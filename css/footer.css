@@ -1,0 +1,95 @@
+.footer {
+    display: block;
+    margin-top: 35px;
+}
+
+.footer-container {
+    display: flex;
+    padding-top: 45px;
+    background-color: #333333;
+    padding-left: 55px;
+    border-radius: 15px;
+    background-image: url(../img/Солнце.png);
+    background-repeat: no-repeat;
+    background-position: 85% 100%;
+}
+
+.left-footer {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+
+.footer-copy, .footer-text, .footer-agreement {
+    display: flexbox;
+    padding-bottom: 50px;
+    font-size: 16px;
+    line-height: 32px;
+    color: white;
+}
+
+.footer-agreement {
+   color: var(--color-btn-link-text);
+}
+
+.right-footer {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 80px;
+}
+
+.item-text-footer {
+    display: flexbox;
+    color:white;
+    padding-bottom: 45px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.footer-address {
+    font-style: normal;
+}
+
+
+.social-link {
+   display: inline-block;
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 25px;
+   height: 25px;
+   opacity: 0.5;
+}
+
+.social-link:hover {
+  opacity: 1;
+}
+
+.advisor {
+   background-image: url(../img/tripadvisor.svg);
+}
+
+.twitter {
+   background-image: url(../img/twitter.svg);
+}
+
+.fb {
+   background-image: url(../img/facebook.svg);
+}
+
+.vk {
+   background-image: url(../img/social.svg);
+}
+
+.google {
+   background-image: url(../img/google-plus-social-logotype.svg);
+}
+
+.footer-social {
+   padding-left: 260px;
+}
+
+.social-block {
+   padding-bottom: 20px;
+}
